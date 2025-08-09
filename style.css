@@ -43,6 +43,8 @@ body {
 
 section {
     min-height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero {
@@ -50,8 +52,6 @@ section {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: lighter;
-    display: flex;
-    justify-content: center;
     align-items: center;
     gap: 40px;
 }
@@ -66,6 +66,22 @@ section {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 5px;
+}
+
+.hero button {
+    margin-top: 10px;
+    border: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .image {
@@ -85,9 +101,7 @@ section {
 .quote {
     background-color: #E5E7EB;
     color:#1F2937;
-    display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 0 150px;
 }
@@ -104,20 +118,29 @@ blockquote {
 
 .call-to-action {
     background-color: #F9FAF8;
+    align-items: center;
 }
 
-.hero button {
-    margin-top: 10px;
-    border: none;
-}
-
-button {
+.floating-container {
+    width: 700px;
+    padding: 30px 100px;
     background-color: #3882F6;
-    color: #F9FAF8;
-    border-style: solid;
-    border-color: #F9FAF8;
-    border-radius: 5%;
-    padding: 5px 20px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+#details {
+    margin-right: auto;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 24px;
 }
 
 
