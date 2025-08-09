@@ -45,6 +45,7 @@ section {
     min-height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -52,7 +53,6 @@ section {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: lighter;
-    align-items: center;
     gap: 40px;
 }
 
@@ -95,14 +95,47 @@ button {
 
 .info {
     background-color: #F9FAF8;
-    
+    flex-direction: column;
+    gap: 5px;
+    color: gray;
+    font-size: 18px;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.detail {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    width:150px;
+    height: 150px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+    margin: 20px 0px 10px;
 }
 
 .quote {
     background-color: #E5E7EB;
     color:#1F2937;
     flex-direction: column;
-    align-items: center;
     padding: 0 150px;
 }
 
@@ -118,7 +151,6 @@ blockquote {
 
 .call-to-action {
     background-color: #F9FAF8;
-    align-items: center;
 }
 
 .floating-container {
@@ -138,7 +170,7 @@ blockquote {
     margin-right: auto;
 }
 
-h3 {
+h5 {
     font-weight: 900;
     font-size: 24px;
 }
