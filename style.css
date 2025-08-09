@@ -38,7 +38,16 @@ body {
 
 .main {
     background-color: yellow;
+    height: 200px;
+    flex: 1;
 }
 .footer {
-    background-color: red;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: light;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
